@@ -1,0 +1,54 @@
+import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.item.IItemStack;
+import stdlib.List;
+furnace.remove(<item:additionaladditions:fried_egg>);
+craftingTable.addShaped("oakbarrel", <item:blockus:oak_barrel>, [
+    [<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>],
+    [<item:minecraft:oak_planks>, <item:minecraft:air>, <item:minecraft:oak_planks>],
+    [<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>]
+]);
+craftingTable.addShaped("birchbarrel", <item:blockus:birch_barrel>, [
+    [<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>],
+    [<item:minecraft:birch_planks>, <item:minecraft:air>, <item:minecraft:birch_planks>],
+    [<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>]
+]);
+craftingTable.addShaped("junglebarrel", <item:blockus:jungle_barrel>, [
+    [<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>],
+    [<item:minecraft:jungle_planks>, <item:minecraft:air>, <item:minecraft:jungle_planks>],
+    [<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>]
+]);
+craftingTable.addShaped("acaciabarrel", <item:blockus:acacia_barrel>, [
+    [<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>],
+    [<item:minecraft:acacia_planks>, <item:minecraft:air>, <item:minecraft:acacia_planks>],
+    [<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>]
+]);
+craftingTable.addShaped("darkoakbarrel", <item:blockus:dark_oak_barrel>, [
+    [<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>],
+    [<item:minecraft:dark_oak_planks>, <item:minecraft:air>, <item:minecraft:dark_oak_planks>],
+    [<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>]
+]);
+craftingTable.addShaped("crimsonbarrel", <item:blockus:crimson_barrel>, [
+    [<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>],
+    [<item:minecraft:crimson_planks>, <item:minecraft:air>, <item:minecraft:crimson_planks>],
+    [<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>]
+]);
+craftingTable.addShaped("warpedbarrel", <item:blockus:warped_barrel>, [
+    [<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>],
+    [<item:minecraft:warped_planks>, <item:minecraft:air>, <item:minecraft:warped_planks>],
+    [<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>]
+]);
+craftingTable.addShaped("whiteoakbarrel", <item:blockus:white_oak_barrel>, [
+    [<item:blockus:white_oak_planks>, <item:blockus:white_oak_slab>, <item:blockus:white_oak_planks>],
+    [<item:blockus:white_oak_planks>, <item:minecraft:air>, <item:blockus:white_oak_planks>],
+    [<item:blockus:white_oak_planks>, <item:blockus:white_oak_slab>, <item:blockus:white_oak_planks>]
+]);
+craftingTable.addShaped("bamboobarrel", <item:blockus:bamboo_barrel>, [
+    [<item:blockus:bamboo_planks>, <item:blockus:bamboo_slab>, <item:blockus:bamboo_planks>],
+    [<item:blockus:bamboo_planks>, <item:minecraft:air>, <item:blockus:bamboo_planks>],
+    [<item:blockus:bamboo_planks>, <item:blockus:bamboo_slab>, <item:blockus:bamboo_planks>]
+]);
+craftingTable.addShaped("charredbarrel", <item:blockus:charred_barrel>, [
+    [<item:blockus:charred_planks>, <item:blockus:charred_slab>, <item:blockus:charred_planks>],
+    [<item:blockus:charred_planks>, <item:minecraft:air>, <item:blockus:charred_planks>],
+    [<item:blockus:charred_planks>, <item:blockus:charred_slab>, <item:blockus:charred_planks>]
+]);
