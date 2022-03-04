@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : null,
+      "name" : "WaterlooCraft",
+      "version" : "2022-03-04-14-31-26",
+      "location" : "waterloocraft.json",
+      "priority" : 0
+    }
+  ]
+}
